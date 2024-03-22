@@ -86,13 +86,13 @@ button {
     padding-bottom: 46px;
 }
 
-.icon__close {
+.icon--close {
     background-color: #FF3E79;
     border-radius: 50%;
 }
 
-.icon__close::before,
-.icon__close::after {
+.icon--close::before,
+.icon--close::after {
     content: "";
     background-color: #fff;
     width: 21px;
@@ -101,11 +101,11 @@ button {
     position: absolute;
 }
 
-.icon__close::before {
+.icon--close::before {
     transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.icon__close::after {
+.icon--close::after {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
@@ -114,7 +114,7 @@ button {
     height: auto;
 }
 
-.icon__search {
+.icon--search {
     background-image: url(../images/icon_search.svg);
     margin-left: auto;
 }
@@ -190,15 +190,15 @@ button {
     margin-bottom: 16px;
 }
 
-.icon__phone {
+.icon--phone {
     background-image: url(../images/icon_phone.svg);
 }
 
-.icon__chat {
+.icon--chat {
     background-image: url(../images/icon_chat.svg);
 }
 
-.icon__profile {
+.icon--profile {
     background-image: url(../images/icon_profile.svg);
 }
 
